@@ -1,4 +1,4 @@
-var updateCP = function(elementID, eventType, elementClassName, validationClassName){
+function updateCP(elementID, eventType, elementClassName, validationClassName){
   var selectElement = document.getElementById(elementID);
   selectElement.addEventListener(eventType, (event) => {
   var MondialCP = document.getElementsByClassName(elementClassName)[0];
