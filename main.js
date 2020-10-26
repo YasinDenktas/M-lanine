@@ -8,4 +8,4 @@ function updateCP(elementID, eventType, elementClassName, validationClassName){
   document.getElementsByClassName(validationClassName)[0].click();
   }
   });
-};
+}
