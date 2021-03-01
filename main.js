@@ -84,8 +84,3 @@ shippingMethodButton.on('click', function(e){
     console.log(1);
   });
 */
-
-updateShippingMethod(shippingMethodName, pointRelayIndex, value);
-=======
-}
->>>>>>> e5ea77421fba6624529bdbfbf7e5f201943b26a4
