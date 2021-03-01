@@ -8,6 +8,7 @@ function updateCP(elementID, eventType, elementClassName, validationClassName){
   document.getElementsByClassName(validationClassName)[0].click();
   }
   });
+<<<<<<< HEAD
 };
 
 
@@ -85,3 +86,6 @@ shippingMethodButton.on('click', function(e){
 */
 
 updateShippingMethod(shippingMethodName, pointRelayIndex, value);
+=======
+}
+>>>>>>> e5ea77421fba6624529bdbfbf7e5f201943b26a4
